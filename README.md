@@ -12,4 +12,5 @@ I have done this chaincode to work with fabric 2.x SDK. Which will satisfy the b
 exchanged for soda at the cafeteria. The cafeteria has only 200 sodas, so only the first 200 requesters can exchange. 
 - Model such that the tickets, shows and sodas availability are managed by contracts on the chain. The movie theatre has 5 shows running at any time and each show has 100 seats. The model such that more than 1 movie theatre can be supported by the blockchain. The blockchain records show, theatres, the number of movie halls per theatre, shows running in each movie hall, cafeteria soda inventory
 
-Reference : https://github.com/simsonraj/movie_ticketing_app/blob/main/chaincode/movies.go
+Reference which is using same use case with 1.4 version of fabric 
+ https://github.com/simsonraj/movie_ticketing_app/blob/main/chaincode/movies.go
